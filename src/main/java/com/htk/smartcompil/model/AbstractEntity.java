@@ -11,7 +11,6 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.io.Serializable;
 @Data
 @MappedSuperclass
-@EntityListeners(AuditingEntityListener.class)
 public class AbstractEntity implements Serializable {
 
     @Id
